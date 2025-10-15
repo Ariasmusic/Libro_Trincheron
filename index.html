@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruta Libertadora - Biblioteca Interactiva</title>
+    <link rel="shortcut icon" href="img/icon_library.png" type="image/x-icon">
+    <!-- Fuentes -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Librerías -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Partículas -->
+    <div id="tsparticles"></div>
+    <header>
+        <img src="img/Logo_de_la_UPTC.svg.png" alt="Logo_de_la_UPTC" class="logo-uptc">
+        <div class="txt">
+            <h1 class="title">SALA 2: LIBRO COMBATE DE PAYA </h1>
+            <p class="subtitle">Explora los sucesos que llevaron al primer enfrentamiento de la campaña libertadora</p>
+        </div>
+        <img src="img/Museo-Ruta-de-la-Libertad-Blanco.png" alt="logo-museo" class="logo-museo">
+    </header>
+    <div class="container">
+
+        <div class="books-grid">
+            <!-- Card 1 -->
+            <div class="card">
+                <div class="imgBox">
+                    <img style="width:100%; height: 100%;" src="img/portada_puente.png">
+                </div>
+                <div class="details">
+                    <h2 style="font-size:30px; color: black;">BATALLA DE BOYACA</h2>
+                    <p style="font-size:15px; color: black;">Relato de los dias previos a la Batalla de Boyaca.</p>
+                    <a class="btn btn-dark" href="book/book-1/libro.html" target="_blank" class="btn">ver mas..</a>
+                </div>
+            </div>
+            <!-- <div class="book-card" data-tilt>
+                <div class="book-cover">
+                    <img src="img/DiasP.png" alt="Libro 1">
+                </div>
+                <div class="book-content">
+                    <h2>BATALLA DE BOYACA</h2>
+                    <p>Relato de los dias previos a la Batalla de Boyaca.</p>
+                    <a href="book/book-1/libro.html" target="_blank" class="btn">📘 Leer</a>
+                </div>
+            </div> -->
+
+            <!-- Card 2 -->
+            <div class="card1">
+                <div class="imgBox1">
+                    <img style="width:100%; height: 100%;" src="img/portada-paya.png">
+                </div>
+                <div class="details1">
+                    <h2 style="font-size:30px">
+                        COMBATE DE PAYA
+                    </h2>
+                    <p style="font-size:15px; color: black;">Una vision en retrospectiva del primer combate de la
+                        campaña libertadora.</p>
+                    <a class="btn btn-dark" href="book/book-2/libro.html" target="_blank" class="btn">ver mas..</a>
+                </div>
+            </div>
+            <!-- <div class="book-card" data-tilt>
+                <div class="book-cover">
+                    <img src="img/Trincheron.png" alt="Libro 2">
+                </div>
+                <div class="book-content">
+                    <h2>COMBATE DE PAYA</h2>
+                    <p>Una vision en retrospectiva del primer combate de la campaña libertadora.</p>
+                    <a href="book/book-2/libro.html" target="_blank" class="btn">📘 Leer</a>
+                </div>
+            </div> -->
+
+            <!-- Card 3
+            <div class="book-card" data-tilt>
+                <div class="book-cover">
+                    <img src="https://i.ibb.co/3s8XbM1/libro3.jpg" alt="Libro 3">
+                </div>
+                <div class="book-content">
+                    <h2>Héroes Anónimos</h2>
+                    <p>Historias de hombres y mujeres que hicieron posible la victoria.</p>
+                    <a href="libro3.html" class="btn">📘 Leer</a>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
